@@ -10,11 +10,11 @@ import org.uqbar.arena.windows.Dialog;
 import org.uqbar.arena.windows.WindowOwner;
 
 import model.Materia;
-import ui.vm.VentaViewModel;
+import ui.vm.MateriaViewModel;
 
-public class ListadoMaterias extends Dialog<MateriaViewModel> {
+public class ListadoMateriasWindow extends Dialog<MateriaViewModel> {
 
-	public ListadoMaterias(WindowOwner owner) {
+	public ListadoMateriasWindow(WindowOwner owner) {
 		super(owner, new MateriaViewModel());
 	}
 

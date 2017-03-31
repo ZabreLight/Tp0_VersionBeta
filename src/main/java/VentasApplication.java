@@ -2,7 +2,7 @@ import org.uqbar.arena.Application;
 import org.uqbar.arena.windows.Window;
 
 import model.Fixture;
-import ui.windows.ListadoVentasWindow;
+import ui.windows.ValidarTokenWindow;
 
 public class VentasApplication extends Application{
 
